@@ -32,12 +32,12 @@ changeCurrency = () => {
 
     if (select.value === 'US$ Dólar americano') {
         currencyName.innerHTML = "Dólar americano"
-        currencyImg.src = "../images/estados-unidos (1) 1@2x.png"
+        currencyImg.src = "./assets/estados-unidos (1) 1.png"
     }
 
     if (select.value === '€ Euro') {
         currencyName.innerHTML = "Euro"
-        currencyImg.src = "../images/Design sem nome 1.png"
+        currencyImg.src = "./assets/Design sem nome 1.png"
     }
 
     convertvalues()
