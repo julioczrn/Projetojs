@@ -7,13 +7,22 @@
 
 body {
     background: #E5E5E5;
+    background-color: #8A51FC;
 }
+
+.gif-logo{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .container {
     width: 375px;
     background-color: #f4f4f4;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 header {
@@ -65,7 +74,6 @@ input {
     border: 1px solid #BBBBBB;
     border-radius: 4px;
     height: 48px;
-    display: block;
     width: 100%;
     outline: none;
     padding: 16px;
